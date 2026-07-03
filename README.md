@@ -2,6 +2,20 @@
 
 KaravanOS, ESP32 mikrodenetleyicisi tabanlı, karavanınızın temel yaşamsal verilerini (sıcaklık, nem, gaz, eğim) izlemenizi ve karavanınızdaki cihazları (inverter, su pompası vb.) yönetmenizi sağlayan gelişmiş bir Akıllı Karavan Kontrol sistemidir. Sistem, sensör verilerini gerçek zamanlı işleyerek hem güvenlik alarmları üretir hem de yerleşik web arayüzü sayesinde tüm kontrolü akıllı telefonunuza veya tabletinize taşır.
 
+<img width="2561" height="1375" alt="image" src="https://github.com/user-attachments/assets/8db20a40-e527-4eee-a717-6142fd56c7cc" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/1d4e04c6-b2d0-4fab-9791-c3480a4bf3e8" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/25f7e332-2ad5-4543-89bd-7ed1de22a79f" />
+<img width="2144" height="1156" alt="image" src="https://github.com/user-attachments/assets/5f22f4e8-d287-4d52-adfc-9d5259352fcf" />
+<img width="2144" height="1336" alt="image" src="https://github.com/user-attachments/assets/e7d4d65c-7d75-4531-bc8e-99819b984810" />
+<img width="1633" height="1352" alt="image" src="https://github.com/user-attachments/assets/11193a35-2fff-44d3-b4dd-377391ae0e83" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/63df3c93-32ca-4b4f-b9ff-8af64473c8b4" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/bfada38c-5523-43ef-afa4-93f88432c8dd" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/a1a89b48-2006-49e0-9a7c-1e790dd0e46a" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/39d94863-2261-42ec-a643-99bb004d71aa" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/58b40209-ca8c-435a-bf39-5c758b14eef6" />
+<img width="2316" height="1244" alt="image" src="https://github.com/user-attachments/assets/590c8cee-ea8f-444e-86ce-9bb574695008" />
+
+
 ## 🌟 Temel Özellikler
 
 * **Gerçek Zamanlı İzleme:** BME280 ile sıcaklık, nem ve basınç takibi.
