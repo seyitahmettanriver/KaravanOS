@@ -68,6 +68,14 @@ Projeyi derlemeden önce Arduino IDE'ye (veya PlatformIO) aşağıdaki kütüpha
 
 ---
 
+## 💾 SD Kart Hazırlığı (ÖNEMLİ)
+
+Projenin web arayüzünün (Tailwind CSS) düzgün çalışabilmesi için gerekli stil dosyalarının SD kartta bulunması gerekmektedir.
+1. Proje dizininde yer alan `tailwindcss.js` dosyasını bilgisayarınız üzerinden SD kartın **ana dizinine (root)** kopyalayın.
+2. Hazırladığınız SD kartı ESP32 üzerindeki MicroSD modülüne takın.
+
+---
+
 ## 🚀 Kurulum ve Yükleme (Arduino IDE)
 
 1. Projeyi bilgisayarınıza indirin veya `git clone` ile çekin.
