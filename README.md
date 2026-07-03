@@ -70,9 +70,15 @@ Projeyi derlemeden önce Arduino IDE'ye (veya PlatformIO) aşağıdaki kütüpha
 
 ## 💾 SD Kart Hazırlığı (ÖNEMLİ)
 
-Projenin web arayüzünün (Tailwind CSS) düzgün çalışabilmesi için gerekli stil dosyalarının SD kartta bulunması gerekmektedir.
-1. Proje dizininde yer alan `tailwindcss.js` dosyasını bilgisayarınız üzerinden SD kartın **ana dizinine (root)** kopyalayın.
-2. Hazırladığınız SD kartı ESP32 üzerindeki MicroSD modülüne takın.
+Projenin web arayüzünün tam kapasiteyle (grafikler ve stiller dahil) düzgün çalışabilmesi için SD kartın içinde bir `js` klasörü oluşturulmalı ve aşağıdaki 3 Javascript dosyasının bu klasörün içine kopyalanması gerekmektedir:
+
+1. `js/tailwindcss.js` (Web arayüzü tasarımı için Tailwind kütüphanesi)
+2. `js/chart.umd.min.js` (Sensör geçmiş verilerinin grafikleri için Chart.js kütüphanesi)
+3. `js/papaparse.min.js` (Log CSV verilerini ayrıştırmak için PapaParse kütüphanesi)
+
+*(Not: SD kartın içerisine `js` adında bir klasör oluşturun ve bu 3 dosyayı o klasörün içine koyun.)*
+
+Hazırladığınız SD kartı ESP32 üzerindeki MicroSD modülüne takın.
 
 ---
 
